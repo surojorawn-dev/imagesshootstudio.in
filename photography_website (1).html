@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagesshoot Studio | Photography</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid gold;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: gold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #222;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: gold;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      margin: 10px;
+      border: 2px solid gold;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .social {
+      margin-top: 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: gold;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      background: gold;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      border-top: 2px solid gold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Imagesshoot Studio</h1>
+    <p>Capturing Moments | Wedding & Portrait Photography</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Our Studio</h2>
+    <p>We bring your special moments to life with cinematic photography and creativity.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <img src="photo1.jpg" alt="Wedding Photo">
+      <img src="photo2.jpg" alt="Couple Portrait">
+      <img src="photo3.jpg" alt="Cinematic Shot">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Hi, I'm Suroj Orawn, a professional photographer and cinematographer with 4+ years of experience in capturing timeless wedding stories and portraits.</p>
+    <div class="social">
+      <a href="https://instagram.com/imagesshootstudio" target="_blank">Instagram</a>
+      <a href="https://facebook.com/imagesshootstudio" target="_blank">Facebook</a>
+      <a href="https://youtube.com/@imagesshootstudio" target="_blank">YouTube</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="mailto:imagesshootstudio@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Phone: 8327832274</p>
+    <p>Email: imagesshootstudio@example.com</p>
+    <p>Location: India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Imagesshoot Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
